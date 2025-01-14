@@ -9,6 +9,7 @@ If you were to read in {[}], you would not have a correct balance of opening and
 
 
 ## Sample Data : 
+```
 (abc(*def) 
 [{}]
 [
@@ -17,7 +18,7 @@ If you were to read in {[}], you would not have a correct balance of opening and
 [one]<two>{three}(four)
 car(cdr(a)(b)))
 car(cdr(a)(b))
-
+```
 
 ## Sample Output :
 (abc(*def) is incorrect.
