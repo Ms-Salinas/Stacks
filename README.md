@@ -1,4 +1,5 @@
-Lab Description :   Read in a group of symbols and check to see if the appropriate opening symbol correctly matches up with the appropriate closing symbol.  
+## Lab Description :   
+Read in a group of symbols and check to see if the appropriate opening symbol correctly matches up with the appropriate closing symbol.  
 The opening symbols are “{(<[“ and the appropriate closing symbols are “})>]“.
 
 You must read in and analyze each group.  
@@ -21,6 +22,7 @@ car(cdr(a)(b))
 ```
 
 ## Sample Output :
+```
 (abc(*def) is incorrect.
 
 [{}] is correct.
@@ -35,4 +37,4 @@ car(cdr(a)(b))
 
 car(cdr(a)(b))) is incorrect.
 car(cdr(a)(b)) is correct.
-
+```
